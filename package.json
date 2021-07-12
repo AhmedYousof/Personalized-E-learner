@@ -1,0 +1,34 @@
+{
+  "name": "grad-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "gravatar": "^1.8.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.10",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "traitify": "^2.2.0",
+    "validator": "^13.6.0"
+  }
+}
