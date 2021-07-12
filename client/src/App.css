@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.jumbotron {
+  margin-bottom: 250px;
+  margin-top: 100px !important;
+}
+body {
+  background-color: whitesmoke;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.course {
+  padding: 20px !important;
+}
+
+.trait-desc {
+  font-weight: 500;
+  font-size: 16px;
+}
+.text-bold {
+  font-weight: 700;
+  margin-bottom: 32px !important;
+}
+
+.syllabus-ul {
+  margin: 40px !important;
+}
+.syllabus-head {
+  margin: 20px !important;
+  font-weight: 700;
+}
+
+.syllabus-head-info {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.profile-personality-text {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.profile-personality-icon {
+  font-weight: 500;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h6 {
+    font-size: 10px;
+  }
+  .btn-sm {
+    font-size: 10px;
+  }
+  span {
+    font-size: 8px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+
+  .profile-personality-text {
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .profile-personality-icon {
+    font-weight: 500;
+  }
+}
